@@ -29,7 +29,7 @@ spec:
           echo "PostgreSQL is ready!"
       containers:
       - name: todo-app
-        image: aastik3103/todo-app:v1  
+        image: aastik3103/k8s-todo-app:v1
         # Example: your-registry.com/todo-api:latest
         imagePullPolicy: Always
         ports:
