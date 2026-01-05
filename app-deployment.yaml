@@ -31,7 +31,7 @@ spec:
         - name: ghcr-secret
       containers:
       - name: todo-app
-        image: ghcr.io/aastik3103/k8s-todo-app:ced935760472eac62bfb6fa9d13ddd2fb6822abe
+        image: ghcr.io/aastik3103/k8s-todo-app:d1b6243cce12bbf07e77cae00d08110fb154a578
         # Example: your-registry.com/todo-api:latest
         imagePullPolicy: Always
         ports:
